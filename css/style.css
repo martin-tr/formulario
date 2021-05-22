@@ -1,0 +1,41 @@
+body{
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-attachment: #f5f5f5;
+}
+
+html, body{
+  height: 100%;
+}
+
+.form-container{
+  text-align: center;
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  background-color:#e2e2e2;
+}
+
+.titulo-rojo{
+  color: rgb(80, 80, 88);
+  font-size: 40px;
+}
+
+.sing-up{
+  margin-bottom: 30px;
+}
+
+input{
+  border-radius: 0!important;;
+}
+
+.form-login button{ /* boton de sing in o bien puedo llamarlo "my-button"*/
+  margin: 20px 0! important;/* important pisa a la regla de bootstrap */
+}
+
+#Recuerdame{/*saco la conf. de bootstrap (left) y centro el casillero tilde de recuerdame*/
+  float: none;
+}
