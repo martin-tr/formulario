@@ -39,3 +39,7 @@ input{
 #Recuerdame{/*saco la conf. de bootstrap (left) y centro el casillero tilde de recuerdame*/
   float: none;
 }
+
+.error-message {
+  color: red;
+}
